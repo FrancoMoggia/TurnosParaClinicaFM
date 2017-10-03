@@ -6,20 +6,13 @@
 package clinica;
 
 import DAO.Coneccion;
+import DAO.Conectate;
 import java.sql.SQLException;
 import visual.Bienvenido;
 
-
-
-
-/**
- *
- * @author USER
- */
 public class Principal {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
-      
-      
+        Conectate con=new Conectate();
         Bienvenido holaMundo = new Bienvenido();
         holaMundo.setVisible(true);
         holaMundo.setAlwaysOnTop(true);
