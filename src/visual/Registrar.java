@@ -5,7 +5,7 @@
  */
 package visual;
 
-import controladores.ControladorRegistrar;
+
 
 /**
  *
@@ -16,8 +16,7 @@ public class Registrar extends javax.swing.JFrame {
   
     public Registrar() {
         initComponents();
-         controladorRegistro = new ControladorRegistrar(txtUsuario,txtClave,txtClave2,txtEmail);
-        botRegistrar.addMouseListener(controladorRegistro);
+         
     }
 
     @SuppressWarnings("unchecked")
@@ -165,5 +164,5 @@ public class Registrar extends javax.swing.JFrame {
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
 
-      private final ControladorRegistrar controladorRegistro;
+
 }
